@@ -1,4 +1,4 @@
-import 'package:couldai_user_app/screens/home_screen.dart';
+import 'package:couldai_user_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               ),
         ),
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
